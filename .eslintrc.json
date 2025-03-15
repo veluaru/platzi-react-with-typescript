@@ -1,0 +1,7 @@
+{
+    "extends": "next/core-web-vitals", // ONLY FOR TESTING IN THIS PROJECT
+    "rules": {
+        "@next/next/no-img-element": "off",// ONLY FOR TESTING IN THIS PROJECT
+        "jsx-a11y/alt-text": "off"// ONLY FOR TESTING IN THIS PROJECT
+    }
+}
