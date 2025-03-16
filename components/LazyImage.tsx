@@ -17,7 +17,7 @@ type ImageNativeTypes = ImgHTMLAttributes<HTMLImageElement>;
 type Props = LazyImageProps & ImageNativeTypes;
 
 
-export const LazyImage = ({ src, title, onLazyLoad, ...imgProps }: LazyImageProps): ReactElement => {
+export const LazyImage = ({ src, title, onLazyLoad, ...imgProps }: Props): ReactElement => {
     // Its nice to add the type of the ref, in this case as the node is going to be
     // the node of and image, we add the corresponding type.
     // Also, we initialize it with null because at this point we still don't have
